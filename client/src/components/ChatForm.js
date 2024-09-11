@@ -20,7 +20,7 @@ function ChatForm() {
   return (
     <div>
       <form onSubmit={handleSubmit}>
-        <input className={styles.textInput} value={message} onChange={(e) => setMessage(e.target.value)}></input>
+        <input className={styles.textInput} placeholder='Enter your message' value={message} onChange={(e) => setMessage(e.target.value)}></input>
       </form>
     </div>
   )

@@ -3,3 +3,10 @@
   margin: 0 auto;
 }
 
+h1{
+
+    display: flex;
+    justify-content: center;  /* Yatayda ortalar */
+    align-items: center;      /* Dikeyde ortalar */
+    color:brown;
+}

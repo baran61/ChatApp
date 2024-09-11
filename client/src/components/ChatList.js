@@ -9,7 +9,6 @@ function ChatList() {
   const {messages} = useChat()
 
   return (
-    
     <div className={styles.chatlist}>
       <ScrollableFeed forceScroll={true}>
         {

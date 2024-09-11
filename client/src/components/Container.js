@@ -3,6 +3,7 @@ import ChatList from './ChatList'
 import ChatForm from './ChatForm'
 import {init , subscribeChat, subscribeInitialMessages} from '../socketApi'
 import {useChat} from '../context/ChatContext'
+import styles from '../App.css'
 
 
 function Container() {
@@ -23,6 +24,7 @@ function Container() {
 
   return (
     <div className='App'>
+      <h1 className={styles.h1}> Chat App</h1>
       <ChatList/>
       <ChatForm/>
     </div>
